@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Тестування</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="test">
+            <div class="question-block">
+                <div class="question">
+                    <h2 style="font-size: 15px; font-weight: bold; font-style: italic; margin-bottom: 0; margin-top: 2px;"> Питання 1: </h2>
+                    <h2 style="font-size: 20px; margin-top: 0; margin-bottom: 0;"> Яка столиця Франції?</h2>
+                </div>
+                <div>
+                    <input type="radio" name="question1" value="a"> a.  Лондон<br>
+                    <input type="radio" name="question1" value="b"> b.  Париж<br>
+                    <input type="radio" name="question1" value="c"> c.  Берлін<br>
+                    <input type="radio" name="question1" value="d"> d.  Рим<br>
+                </div>
+                <div class="answer-feedback"></div>
+            </div>
+            <div class="question-block">
+                <div class="question">
+                    <h2 style="font-size: 15px; font-weight: bold; font-style: italic; margin-bottom: 0; margin-top: 2px;"> Питання 2: </h2>
+                    <h2 style="font-size: 20px; margin-top: 0; margin-bottom: 0;"> Який найбільший океан на Землі?</h2>
+                </div>
+                <div>
+                    <input type="radio" name="question2" value="a"> a.  Тихий<br>
+                    <input type="radio" name="question2" value="b"> b.  Атлантичний<br>
+                    <input type="radio" name="question2" value="c"> c.  Індійський<br>
+                    <input type="radio" name="question2" value="d"> d.  Північний Льодовитий<br>
+                </div>
+                <div class="answer-feedback"></div>
+            </div>
+            <div class="question-block">
+                <div class="question">
+                    <h2 style="font-size: 15px; font-weight: bold; font-style: italic; margin-bottom: 0; margin-top: 2px;"> Питання 3: </h2>
+                    <h2 style="font-size: 20px; margin-top: 0; margin-bottom: 0;"> Який рік почався Перша світова війна?</h2>
+                </div>
+                <div>
+                    <input type="radio" name="question3" value="a"> a.  1914<br>
+                    <input type="radio" name="question3" value="b"> b.  1918<br>
+                    <input type="radio" name="question3" value="c"> c.  1939<br>
+                    <input type="radio" name="question3" value="d"> d.  1945<br>
+                </div>
+                <div class="answer-feedback"></div>
+            </div>
+            <div class="question-block">
+                <div class="question">
+                    <h2 style="font-size: 15px; font-weight: bold; font-style: italic; margin-bottom: 0; margin-top: 2px;"> Питання 4: </h2>
+                    <h2 style="font-size: 20px; margin-top: 0; margin-bottom: 0;"> Який найвищий гора на Землі?</h2>
+                </div>
+                <div>
+                    <input type="radio" name="question4" value="a"> a.  Еверест<br>
+                    <input type="radio" name="question4" value="b"> b.  К2<br>
+                    <input type="radio" name="question4" value="c"> c.  Макалу<br>
+                    <input type="radio" name="question4" value="d"> d.  Чогорі<br>
+                </div>
+                <div class="answer-feedback"></div>
+            </div>
+            <div class="question-block">
+                <div class="question">
+                    <h2 style="font-size: 15px; font-weight: bold; font-style: italic; margin-bottom: 0; margin-top: 2px;"> Питання 5: </h2>
+                    <h2 style="font-size: 20px; margin-top: 0; margin-bottom: 0;"> Яка хімічна формула води?</h2>
+                </div>
+                <div>
+                    <input type="radio" name="question5" value="a"> a.  H2O<br>
+                    <input type="radio" name="question5" value="b"> b.  CO2<br>
+                    <input type="radio" name="question5" value="c"> c.  NaCl<br>
+                    <input type="radio" name="question5" value="d"> d.  C6H12O6<br>
+                </div>
+                <div class="answer-feedback"></div>
+            </div>
+            <div class="center" id="resultContainer"></div> 
+            <div class="center"> 
+                <button id="submitButton">Завершити тест</button>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Будь ласка, не покидайте тест. Якщо ви вийдете, тест буде завершено.</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
